@@ -13,7 +13,7 @@ int main()
         sort(a,a+n,greater<int>());
         int i;
         a[n]=-1;
-        for (i=0;i<n;i++){
+        for (i=0;i<k;i++){
             if (a[i]!=a[i+1]){
                 if (k==1 || i==n-1)
                     break;
